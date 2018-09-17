@@ -1,7 +1,11 @@
 
-## GIT-Playbook
+## GIT Playbook
 
 GIT Playbook is a documentation framework that allows you to create Documentation for your project using Markdown and GH-Pages rapidly. This is the repository for Medium article <a href="xyz" target="_blank">Create compelling Documentation with Github Pages</a>. 
+
+<a href="https://thomasreinecke.github.io/git-playbook/#/playbook" target="_blank">
+![image](https://user-images.githubusercontent.com/35994116/45641529-11306a80-bab6-11e8-924e-e50085231e30.png)
+</a>
 
 <a href="https://thomasreinecke.github.io/git-playbook/#/playbook" target="_blank">Demo environment (on GH pages)</a>
 <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">Markdown Cheatsheet</a>
