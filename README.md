@@ -1,4 +1,12 @@
 
+## GIT-Playbook
+
+GIT Playbook is a documentation framework that allows you to create Documentation for your project using Markdown and GH-Pages rapidly. This is the repository for Medium article <a href="xyz" target="_blank">Create compelling Documentation with Github Pages</a>. 
+
+<a href="https://thomasreinecke.github.io/git-playbook/#/playbook" target="_blank">Demo environment (on GH pages)</a>
+<a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">Markdown Cheatsheet</a>
+
+
 ## Build Setup
 
 ``` bash
@@ -27,6 +35,3 @@ npm test
 npm run gh-pages
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-
-[Markdown CheatSheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
