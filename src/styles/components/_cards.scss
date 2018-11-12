@@ -14,12 +14,22 @@
   align-items: center;
   justify-content: center;
   min-width: 220px;
-  padding: 10px;
   margin: 5px;
   cursor: pointer;
   background-color: #fbfbfb;
   border: solid 1px #d8d8d8;
   border-radius: 10px;
+}
+
+.card > a {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+  color: $color-core-black;
 }
 
 .todo {

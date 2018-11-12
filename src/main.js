@@ -20,6 +20,7 @@ import {
   faSitemap,
   faUsers,
   faEnvelopeSquare,
+  faEnvelope,
   faTimes,
   faThList,
   faHandshake,
@@ -76,7 +77,18 @@ import {
   faBuilding,
   faCommentAlt,
   faChartArea,
-  faHandsHelping
+  faHandsHelping,
+  faBoxes,
+  faFire,
+  faAward,
+  faGraduationCap,
+  faPhoneSquare,
+  faTasks,
+  faMousePointer,
+  faWindowClose,
+  faClone,
+  faChartLine,
+  faFlag
 } from '@fortawesome/free-solid-svg-icons'
 
 Vue.use(VueTreeNavigation)
@@ -95,6 +107,7 @@ library.add(
   faSitemap,
   faUsers,
   faEnvelopeSquare,
+  faEnvelope,
   faTimes,
   faThList,
   faHandshake,
@@ -151,7 +164,18 @@ library.add(
   faBuilding,
   faCommentAlt,
   faChartArea,
-  faHandsHelping
+  faHandsHelping,
+  faBoxes,
+  faFire,
+  faAward,
+  faGraduationCap,
+  faPhoneSquare,
+  faTasks,
+  faMousePointer,
+  faWindowClose,
+  faClone,
+  faChartLine,
+  faFlag
 )
 
 const filter = (text, length, clamp) => {

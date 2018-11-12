@@ -11,6 +11,15 @@ var metaMap = {}
 function processElement (node, parent) {
   // add fully qualified path and reference to component
   node.path = node.route
+  if (!parent) node.breadCrumb = []
+  else node.breadCrumb = JSON.parse(JSON.stringify(parent.breadCrumb))
+  let parentPath = (parent != null) ? (parent.path + node.route) : '/'
+
+  node.breadCrumb.push({
+    name: node.name,
+    path: parentPath
+  })
+
   node.component = DefaultPageRenderer
   if (parent != null) node.path = parent.path + node.route
 
@@ -25,7 +34,9 @@ function processElement (node, parent) {
           description: child.description,
           path: node.path + child.route,
           icon: child.icon,
-          bgColor: child.bgColor
+          bgColor: child.bgColor,
+          owner: child.owner,
+          topics: child.topics
         }
       )
       processElement(child, node)
@@ -40,7 +51,9 @@ function processElement (node, parent) {
     markdown: node.markdown,
     icon: node.icon,
     bgColor: node.bgColor,
-    owner: node.owner
+    owner: node.owner,
+    topics: node.topics,
+    breadCrumb: node.breadCrumb
   }
 
   // store the meta data in our metaMap
@@ -81,6 +94,9 @@ export default {
    */
   getRoutingConfig: function () {
     let routingConfig = generateRoutingConfig(this.getBaseConfig())
+
+    // add more components
+
     return routingConfig
   },
 
@@ -115,4 +131,5 @@ export default {
         })
     })
   }
+
 }

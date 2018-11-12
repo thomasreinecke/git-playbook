@@ -78,7 +78,9 @@ main {
 }
 
 .content {
-  padding: 1rem 2rem;
+  padding-right: 1rem;
+  padding-bottom: 3rem;
+  padding-left: 1rem;
 }
 
 .content img,
@@ -175,7 +177,6 @@ a:focus,
 }
 
 .results__search li:hover {
-  cursor: pointer;
   background-color: #f4f4f4;
 }
 
