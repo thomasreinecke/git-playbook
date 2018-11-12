@@ -8,6 +8,18 @@ GIT Playbook is a documentation framework that allows you to create Documentatio
 * <a href="https://thomasreinecke.github.io/git-playbook/#/playbook" target="_blank">Demo environment (on GH pages)</a>
 * <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">Markdown Cheatsheet</a>
 
+## Main Features
+* Runs your Markdown-based documentation on a webapp
+* Mobile ready, responsive design
+* supports any level of document hierarchy
+* supports title, description & icon for every Folder & Document
+* Live Search/Filtering capability keyword and topic-based (no server infrastructure necessary for it)
+* All-In-One WebFrontend, only needs a webcontainer to run, optimized for deployment on GH Pages
+* Left-Sided Tree Navigator
+* Support for Multiple Playbooks in one app
+* Breadcrumb Support to navigate through any level of the document hierarchy easily
+* Topic Support to group documents together
+
 ## How to use it
 * get started by reading the article <a href="https://medium.com/@thomas.reinecke/create-compelling-documentation-with-github-pages-16e4149efe9e" target="_blank">Create compelling Documentation with Github Pages</a>
 * clone repository and follow the "Build Setup" instructions below
