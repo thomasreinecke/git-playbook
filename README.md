@@ -1,7 +1,7 @@
 
 ## GIT Playbook
 
-GIT Playbook is a documentation framework that allows you to create Documentation for your project using Markdown and GH-Pages rapidly. This is the repository for Medium article <a href="xyz" target="_blank">Create compelling Documentation with Github Pages</a> by <a href="https://github.com/thomasreinecke" target="_blank">Thomas Reinecke</a> and <a href="https://github.com/kaiwedekind" target="_blank">Kai Wedekind</a>. 
+GIT Playbook is a documentation framework that allows you to create Documentation for your project using Markdown and GH-Pages rapidly. This is the repository for Medium article <a href="https://medium.com/@thomas.reinecke/create-compelling-documentation-with-github-pages-16e4149efe9e" target="_blank">Create compelling Documentation with Github Pages</a> by <a href="https://github.com/thomasreinecke" target="_blank">Thomas Reinecke</a> and <a href="https://github.com/kaiwedekind" target="_blank">Kai Wedekind</a>. 
 
 ![image](https://user-images.githubusercontent.com/35994116/45641683-75532e80-bab6-11e8-81a6-f31ad27f1bf4.png)
 
@@ -9,7 +9,7 @@ GIT Playbook is a documentation framework that allows you to create Documentatio
 * <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">Markdown Cheatsheet</a>
 
 ## How to use it
-* get started by reading the article <a href="xyz" target="_blank">Create compelling Documentation with Github Pages</a>
+* get started by reading the article <a href="https://medium.com/@thomas.reinecke/create-compelling-documentation-with-github-pages-16e4149efe9e" target="_blank">Create compelling Documentation with Github Pages</a>
 * clone repository and follow the "Build Setup" instructions below
 * edit "src/pageConfig.json" and change the document structure as you desire
 * write your documents in Markdown and put them into the "static" folder
