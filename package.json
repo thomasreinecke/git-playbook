@@ -26,7 +26,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.3.1",
     "@fortawesome/vue-fontawesome": "^0.1.1",
     "axios": "^0.18.0",
-    "highlight.js": "9.12.0",
+    "highlight.js": "10.4.1",
     "liquor-tree": "^0.2.32",
     "vue": "^2.5.2",
     "vue-markdown": "^2.2.4",
