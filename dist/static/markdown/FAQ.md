@@ -18,5 +18,3 @@ here is some Introduction text...
 ---
 
 Checkout the Markdown Cheat Sheet https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
-
-test test
